@@ -1,0 +1,85 @@
+/* ==== GAYA UMUM ==== */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fdf6e3; /* pasir */
+  color: #1e3a8a;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+/* ==== HEADER ==== */
+header {
+  width: 100%;
+  background-color: #1e3a8a;
+  color: white;
+  padding: 60px 20px;
+  border-bottom: 4px solid #e8e2c6;
+}
+
+/* ==== KONTEN BODY ==== */
+main {
+  width: 100%;
+  max-width: 800px;
+  background-color: #fffdf3;
+  padding: 40px 20px;
+  margin: 20px auto;
+  border-top: 4px solid #1e3a8a;
+  border-bottom: 4px solid #1e3a8a;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  text-align: center;
+}
+main p {
+
+  color: #333;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+/* ==== LINK NAVIGASI ==== */
+.nav-links {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.nav-links a {.text-bubble {
+  display: inline-block;
+  background-color: #1e3a8a;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.95em;
+  font-weight: bold;
+}
+
+  background-color: #1e3a8a;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 50px; /* bikin bubble */
+  font-weight: bold;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.nav-links a:hover {
+  background-color: #3b5fc2;
+}
+
+/* ==== FOOTER ==== */
+footer {
+  width: 100%;
+  background-color: #e8e2c6;
+  color: #333;
+  padding: 20px;
+  text-align: center;
+  font-size: 0.9em;
+  border-top: 4px solid #1e3a8a;
+}

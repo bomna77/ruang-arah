@@ -1,0 +1,119 @@
+/* ===== WARNA DASAR ===== */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f1e4b7; /* warna pasir */
+  color: #1e3a8a; /* biru tua */
+}
+
+/* ===== HEADER ===== */
+header {
+  background-color: #1e3a8a; /* biru tua */
+  padding: 20px 0;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+.wave-header {
+  background-color: #1e3a8a;
+  color: rgb(8, 97, 241);
+  text-align: center;
+  padding-bottom: 50px;
+  border-bottom-left-radius: 80% 10%;
+  border-bottom-right-radius: 80% 10%;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-weight: bold;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+.logo-title {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+.logo-title h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 10px 0 0 0;
+  color: #0066ff;
+}
+
+.logo-title p {
+  font-style: italic;
+  margin: 0;
+  font-size: 1em;
+  color: #444;
+}
+
+/* ===== BAGIAN KONTAK ===== */
+.kontak-container {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.kontak-container h2 {
+  font-size: 2em;
+  color: #1e3a8a;
+  margin-bottom: 30px;
+}
+
+.kontak-card {
+  background-color: white;
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.kontak-card h3 {
+  color: #0066ff;
+  margin-bottom: 10px;
+}
+
+.kontak-card p {
+  margin: 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+.kontak-card a {
+  color: #1e3a8a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.kontak-card a:hover {
+  text-decoration: underline;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  background-color: #f1e4b7;
+  color: black;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+  font-size: 0.9em;
+}
